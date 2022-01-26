@@ -1,7 +1,5 @@
 import sys
 
-from tokenizer import tokenize
-from parser import parse
 from interpreter_logic.interpreter import Interpreter, ReturnException
 
 if __name__ == '__main__':
