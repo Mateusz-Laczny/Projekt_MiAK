@@ -1,0 +1,11 @@
+binary : left, operator, right
+grouping : inside_expression
+literal : value
+unary : operator, right
+expr_variable : name
+assignment : name, value
+list_assignment : name, index, value
+logic : left, operator, right
+call : name, arguments
+subscript : name, index
+list : values

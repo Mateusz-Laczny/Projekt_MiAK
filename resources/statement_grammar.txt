@@ -1,0 +1,10 @@
+program : statements
+statements : statements
+statement : expression
+stmt_variable : name, initializer
+block : statements
+if : condition, then_branch, else_branch
+while : condition, body
+for : initializer, end, increment, body
+function_declaration : name, params, body
+return : keyword, value

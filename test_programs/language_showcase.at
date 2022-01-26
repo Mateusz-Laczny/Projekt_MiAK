@@ -1,0 +1,38 @@
+# This is a comment
+# This is a function that sorts the array
+fun insertionSort(arr, n) {
+	var i;
+	var key;
+	var j;
+	
+	for i = 0; i < n; i = i + 1 do {
+		key = arr[i];
+		j = i - 1;
+		
+		while j >= 0 and arr[j] > key do {
+			arr[j + 1] = arr[j];
+			j = j - 1;
+		}
+		arr[j + 1] = key;
+	}
+}
+
+fun printArray(arr, n) {
+	var i;
+	for i = 0; i < n; i = i + 1 do {
+		print(arr[i]);
+	}
+}
+
+var arr = [12, 11, 13, 5, 6];
+var n = 5;
+
+insertionSort(arr, n);
+printArray(arr, n);
+
+var some_value = 42;
+if some_value is 42 then {
+	print("it's the answer!");
+} else {
+	print("not the answer...");
+}

@@ -1,0 +1,5 @@
+fun sayHi(first, last) {
+  print("Hi, " + first + " " + last + " from the interpreter!");
+}
+
+sayHi("Mateusz", "Łączny");
